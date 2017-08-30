@@ -1,0 +1,84 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+ .bg-orange{
+   background-color:#ff5500;
+ }
+ //
+ // .jumbotron{
+ //   background-color:purple;
+ //   font-size:75%, bold;
+ //   width:100%;
+ //
+ //
+ //
+ // }
+ .jumbotron {
+	width: 100%;
+	background-size: cover;
+	background-color:purple;
+
+}
+    .third_row .button {
+       margin: 0;
+     }
+     .infobar{
+       margin-top: 70px;
+       margin-bottom: 100px;
+     }
+
+.cards{
+
+  margin-bottom: 100px;
+}
+.btn-orange {
+   border-radius:8px;
+   background-color:#510063;
+   display: inline-block;
+   padding: 15px 32px;
+}
+.info_heading{
+
+    color:#f50;
+    font-weight: bold;
+    font-family: "MarkOT",sans-serif;
+}
+.info_info{
+  color:#603f66;
+}
+
+.main_heading{
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+
+
+
+
+}
+.vno{
+  background-color:#f50;
+  font-family: "MarkOT",sans-serif;
+
+}
+
+.container_five{
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
